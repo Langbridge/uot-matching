@@ -1,0 +1,1760 @@
+{
+    "AH00001_00684d91-abfb-4b52-892f-3718f80c0092": {
+        "variables": [
+            "AHU Running",
+            "Cooling Valve %",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "Heating Drained Flag",
+            "Cooling Drained Flag"
+        ],
+        "ground truth": [
+            "Status",
+            "yNZOlZto HUR00Z3qcKyFm Cooling Valve %",
+            "cQ2gYW1J HUR0003XOraLX Heating Valve %",
+            "kplMf4t0 HUR008RafYZ2R Preheat Valve %",
+            "",
+            ""
+        ]
+    },
+    "AH00001_07f439b4-3e77-4b55-852b-7337cb2dac6e": {
+        "variables": [
+            "AHU Running",
+            "Cooling Valve %",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "Heating Drained Flag",
+            "Cooling Drained Flag"
+        ],
+        "ground truth": [
+            "Status",
+            "sT47fRK2 Cooling Valve %",
+            "",
+            "mu8c9vxw Preheat Valve %",
+            "",
+            ""
+        ]
+    },
+    "AH00001_3ec92efa-5456-4b97-b346-8e87cbdae6b5": {
+        "variables": [
+            "AHU Running",
+            "Cooling Valve %",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "Heating Drained Flag",
+            "Cooling Drained Flag"
+        ],
+        "ground truth": [
+            "",
+            "BH2JCchW36 AHU 3 Cooling Valve %",
+            "",
+            "BjdETuOwy6 AHU 3 Preheat Valve %",
+            "",
+            ""
+        ]
+    },
+    "AH00002_0a0de049-eea8-4988-92dd-6d13e07e62ce": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "OAT (Outdoor Air Temperature)",
+            "Supply Air Temperature Setpoint",
+            "Supply Air Temperature",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "Heating Drained Flag"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "241c0ffe-98a5d418 Outdoor Air Temperature",
+            "oDAQUdqz Setpoint Temperature",
+            "V44l0fpW Supply Air Temperature",
+            "EoutLczq Heating Valve %",
+            "",
+            ""
+        ]
+    },
+    "AH00002_3daad0d0-ad0c-4a8f-8674-01e69dc09979": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "OAT (Outdoor Air Temperature)",
+            "Supply Air Temperature Setpoint",
+            "Supply Air Temperature",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "Heating Drained Flag"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "1d8d8ad4-65d11d11 Outdoor Air Temperature",
+            "B0lRiRclsm AHU 5 Setpoint Temperature",
+            "B0xyGncL5b AHU 5 Supply Air Temperature",
+            "",
+            "B0X36xGRc7 AHU 5 Preheat Valve %",
+            ""
+        ]
+    },
+    "AH00002_7b625740-f8cf-4ee1-a066-f8b1d5805968": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "OAT (Outdoor Air Temperature)",
+            "Supply Air Temperature Setpoint",
+            "Supply Air Temperature",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "Heating Drained Flag"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            ["1ebd2c80-5c26bec6 Outdoor Air Temperature", "${weatherRef} Temperature"],
+            "Qi89cfHd Setpoint Temperature",
+            "dAWMeJqQ Supply Air Temperature",
+            "5tIwA2e2 Heating Valve %",
+            "",
+            ""
+        ]
+    },
+    "AH00012_7273c9d8-a643-41c5-baec-a9aff0de6a4c": {
+        "variables": [
+            "AHU Running",
+            "Filter Differential Pressure",
+            "Supply Filter Static Pressure Setpoint",
+            "Post Filter Bank Pressure",
+            "Pre Filter Bank Pressure",
+            "Supply Fan Output %"
+        ],
+        "ground truth": [
+            "Status",
+            "s8QVOeCC yNTufsZt Filter Differential Pressure",
+            "497MYz27 eINYIIoA Static Pressure Setpoint",
+            "",
+            "",
+            "NAPYu18O du09ZWbG Supply Fan Output %"
+        ]
+    },
+    "AH00012_9ae638fc-1474-4a88-a7b7-0b2a1fef3852": {
+        "variables": [
+            "AHU Running",
+            "Filter Differential Pressure",
+            "Supply Filter Static Pressure Setpoint",
+            "Post Filter Bank Pressure",
+            "Pre Filter Bank Pressure",
+            "Supply Fan Output %"
+        ],
+        "ground truth": [
+            "Status",
+            "nnOJsuNRMlXDIy oB2nyblg Filter Differential Pressure",
+            "400Kusoj XVrRtZCJ Static Pressure Setpoint",
+            "",
+            "",
+            "P6SN0OwZ muUKycgv Supply Fan Output %"
+        ]
+    },
+    "AH00014_5aae354e-541f-4c5c-b946-26d2e8148ed4": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Supply Air Temperature",
+            "Mixed Air Temperature",
+            "OAT (Outside Air Temperature)"
+        ],
+        "ground truth": [
+            "5RMrlbMH Schedule",
+            "subType",
+            "KaqvmWDz Supply Air Temperature",
+            "CgsWEhH6 Mixed Air Temperature",
+            ["1ebd2c80-5c26bec6 Outdoor Air Temperature", "${weatherRef} Temperature"]
+        ]
+    },
+    "AH00014_7c12d11a-48ea-4cc4-854d-8044afae04df": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Supply Air Temperature",
+            "Mixed Air Temperature",
+            "OAT (Outside Air Temperature)"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "6k28zOGF Mixed Air Temperature",
+            "Bb0x9l2z Supply Air Temperature",
+            "1ebd2c80-5c26bec6 Outdoor Air Temperature"
+        ]
+    },
+    "AH00014_0be040bb-501c-4bfd-ae36-16e2a47fad8f": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Supply Air Temperature",
+            "Mixed Air Temperature",
+            "OAT (Outside Air Temperature)"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "lgofixAK Supply Air Temperature",
+            "1HhRFf06 Mixed Air Temperature",
+            "1ebd2c80-5c26bec6 Outdoor Air Temperature"
+        ]
+    },
+    "AH00016_04e3bd5f-190d-4a72-b7d2-d91a60c2bd27": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Economizer Mode",
+            "OAT (Outside Air Temperature)",
+            "Return Air Temperature",
+            "Return Air CO2",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Enthalpy",
+            "Return Enthalpy"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "",
+            ["24ef09be-e774c5b1 Outdoor Air Temperature", "${weatherRef} Temperature"],
+            "B002 JGhWjXf7 Return Air Temperature",
+            "B002 uvnb6K1D CO2",
+            "B002 XKKS7ORz LZm1lmc3 Damper %",
+            "",
+            "B002 Qe4bQQ1t Heat Transfer Energy (Calc)",
+            ""
+        ]
+    },
+    "AH00016_4fbe7eef-ebd4-4d15-b901-c1d62da8b2ac": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Economizer Mode",
+            "OAT (Outside Air Temperature)",
+            "Return Air Temperature",
+            "Return Air CO2",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Enthalpy",
+            "Return Enthalpy"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "",
+            ["1f35ea32-204106e7 Outdoor Air Temperature", "${weatherRef} Temperature"],
+            "B021 ntNhytAv Return Air Temperature",
+            "B021 yqBlNiPt RAT CO2",
+            "B021 G9xG1D1y 22zpCk8j Damper %",
+            "",
+            "B021 eb0un24N Heat Transfer Energy (Calc)",
+            ""
+        ]
+    },
+    "AH00016_1eade63e-1358-4a67-9d2d-befa83433393": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Economizer Mode",
+            "OAT (Outside Air Temperature)",
+            "Return Air Temperature",
+            "Return Air CO2",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Enthalpy",
+            "Return Enthalpy"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "",
+            "1f8ad01f-23c5c64e Outdoor Air Temperature",
+            "ILCoylWpPcVB Return Air Temperature",
+            "",
+            "ILC9bQubdASB gPrhwInB Damper %",
+            "",
+            "",
+            ""
+        ]
+    },
+    "AH00020_46a844bc-750f-448e-9d8c-4c3933acf2be": {
+        "variables": [
+            "AHU Running",
+            "OAT (Outdoor Air Temperature)",
+            "Setpoint Temperature",
+            "Supply Air Temperature",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "Reheat Valve %",
+            "Cooling Valve %",
+            "Mixed Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            ["1d8d8ad4-65d11d11 Outdoor Air Temperature", "${weatherRef} Temperature"],
+            "B0ZucPz6YH AHU 2 Setpoint Temperature",
+            "B00AxztQky AHU 2 Supply Air Temperature",
+            "",
+            "B0AwaFIQTs AHU 2 Preheat Valve %",
+            "",
+            "B08G6fNi2y AHU 2 Cooling Valve %",
+            "B0cqD53qHE AHU 2 Mixed Air Temperature"
+        ]
+    },
+    "AH00020_2d628091-2496-4514-873d-f86ef2e8813d": {
+        "variables": [
+            "AHU Running",
+            "OAT (Outdoor Air Temperature)",
+            "Setpoint Temperature",
+            "Supply Air Temperature",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "Reheat Valve %",
+            "Cooling Valve %",
+            "Mixed Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            ["1d8d8ad4-65d11d11 Outdoor Air Temperature", "${weatherRef} Temperature"],
+            "U2JNIN8v Setpoint Temperature",
+            "4tvK8tBZ Supply Air Temperature",
+            "",
+            "yzmk0S64 Preheat Valve %",
+            "",
+            "n93D7TRL Cooling Valve %",
+            "Z6AwWasU3UEOYY Mixed Air Temperature"
+        ]
+    },
+    "AH00020_3ae345b6-0e8c-4b6a-a1f8-d3b24524bdcc": {
+        "variables": [
+            "AHU Running",
+            "OAT (Outdoor Air Temperature)",
+            "Setpoint Temperature",
+            "Supply Air Temperature",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "Reheat Valve %",
+            "Cooling Valve %",
+            "Mixed Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "1d8d8ad4-65d11d11 Outdoor Air Temperature",
+            "2FNj6Zgo Setpoint Temperature",
+            "FUae4FS5 Supply Air Temperature",
+            "",
+            "fulbaQVG Preheat Valve %",
+            "",
+            "SPWjI7cQ Cooling Valve %",
+            "GUlN0Xf0 Mixed Air Temperature"
+        ]
+    },
+    "AH00032_51b15474-6fb6-4a5c-87c2-a7c0688ea687": {
+        "variables": [
+            "AHU Running",
+            "Heating Valve %",
+            "Cooling Valve %",
+            "Mixed Air Temperature",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "Az6ACcEw Heating Valve %",
+            "9EBr3rTS Cooling Valve %",
+            "dTYCyiXL Mixed Air Temperature",
+            "Im3WYaYI Supply Air Temperature"
+        ]
+    },
+    "AH00032_9803720f-cdda-499a-926c-a26125b5eeee": {
+        "variables": [
+            "AHU Running",
+            "Heating Valve %",
+            "Cooling Valve %",
+            "Mixed Air Temperature",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "VhC2nH9A Heating Valve %",
+            "ilDQQuuG Cooling Valve %",
+            "ZxARFgMK Mixed Air Temperature",
+            "OLoRrk26 Supply Air Temperature"
+        ]
+    },
+    "AH00032_ac424118-cfe3-4140-be2a-bc2a8a4560fb": {
+        "variables": [
+            "AHU Running",
+            "Heating Valve %",
+            "Cooling Valve %",
+            "Mixed Air Temperature",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "jP9kCa5j Heating Valve %",
+            "94cIiQJb7y5x94cIiQJb Cooling Valve %",
+            "pGeOcirX Mixed Air Temperature",
+            "FP7LUnyi Supply Air Temperature"
+        ]
+    },
+    "AH00033_11e41dbf-084c-466b-9651-6eb8e6a12574": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Preheat Valve %"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "dxNvtcNi ZtPhmh8X Damper %",
+            "pL4MrfoR 6wZfM0kQ Damper Minimum %",
+            "8WFyjvqv Preheat Valve %"
+        ]
+    },
+    "AH00033_3a4ed938-07c4-4ba5-9fbe-09c3de9a563d": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Preheat Valve %"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "39w9DIKl lxuU7zo6 Damper %",
+            "1NCxzQ07 cUxzIl6d Damper Minimum %",
+            "ms4pUvIa Preheat Valve %"
+        ]
+    },
+    "AH00033_0c97d529-c6f6-4c88-9ec1-c0dafcfe6c5f": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Preheat Valve %"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "39QEL68k 3XTNeOJQ Damper %",
+            "UA7rynb4 OOndacBM Damper Minimum %",
+            "R4wJxZin Preheat Valve %"
+        ]
+    },
+    "AH00034_99012fdb-afe5-4f2d-b7db-c804998f23cb": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Enthalpy",
+            "Economizer Mode",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Return Air CO2"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "1f3366f3-04dc8a12 Outside Enthalpy",
+            "",
+            "Nnchh6Dp xZZT9s52l8mKvm nvzvVbF7 Damper %",
+            "",
+            ""
+        ]
+    },
+    "AH00034_c3cecca8-3195-4005-8411-4e9974331fef": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Enthalpy",
+            "Economizer Mode",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Return Air CO2"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "1f3366f3-04dc8a12 Outside Enthalpy",
+            "",
+            "LuHSHibHgFjrpY Yv0guVvn fZU0cYyc Damper %",
+            "",
+            ""
+        ]
+    },
+    "AH00034_5c4e3b3f-fb7b-4591-9228-cc0792b759e2": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "Enthalpy",
+            "Economizer Mode",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Return Air CO2"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "1e437cb4-9fa8e8b9 Outside Enthalpy",
+            "",
+            "MGRuh9Zm H9HsqJ9Z qEJu22Tm Damper %",
+            "",
+            ""
+        ]
+    },
+    "AH00035_5caf3b2b-7e81-4ff0-9dd7-6eb500b310a0": {
+        "variables": [
+            "AHU Running",
+            "Cooling Valve Reporting",
+            "Heating Valve %",
+            "Supply Air Temperature",
+            "Mixed Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "IYdjRsyy Cooling Valve %",
+            "hHt98i2w Heating Valve %",
+            "CrE1yFj9 Supply Air Temperature",
+            "xTb764tw Mixed Air Temperature"
+        ]
+    },
+    "AH00035_8e381d34-ee47-4828-bf9c-53d0a42b44f9": {
+        "variables": [
+            "AHU Running",
+            "Cooling Valve Reporting",
+            "Heating Valve %",
+            "Supply Air Temperature",
+            "Mixed Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "uTT88HVw Cooling Valve %",
+            "5kIQAQQh Heating Valve %",
+            "CVH8dSWF Supply Air Temperature",
+            "piGvbh0n Mixed Air Temperature"
+        ]
+    },
+    "AH00035_caec663c-078b-4a3a-a51f-e333c3f93e27": {
+        "variables": [
+            "AHU Running",
+            "Cooling Valve Reporting",
+            "Heating Valve %",
+            "Supply Air Temperature",
+            "Mixed Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "EPJgqdZc Cooling Valve %",
+            "TVtDrfuT Heating Valve %",
+            "6jXQk9gc Supply Air Temperature",
+            "hxtUrz0o Mixed Air Temperature"
+        ]
+    },
+    "AH00036_2dba231f-07ee-4393-9f21-3c2b9508c742": {
+        "variables": [
+            "AHU Running",
+            "Enthalpy",
+            "Humidification Valve %"
+        ],
+        "ground truth": [
+            "Status",
+            "1d8d8ad4-c8583b9d Outside Enthalpy",
+            "VjSM1Xwn Humidifier Valve %"
+        ]
+    },
+    "AH00036_d611877c-e1d5-4c10-bc51-67b59a0d9d5d": {
+        "variables": [
+            "AHU Running",
+            "Enthalpy",
+            "Humidification Valve %"
+        ],
+        "ground truth": [
+            "Status",
+            "1d8d8ad4-c8583b9d Outside Enthalpy",
+            "ail490Zf Humidifier Valve %"
+        ]
+    },
+    "AH00036_ca54e8fd-bc50-4187-a3b6-a4ab514b6bd8": {
+        "variables": [
+            "AHU Running",
+            "Enthalpy",
+            "Humidification Valve %"
+        ],
+        "ground truth": [
+            "Status",
+            "1f3367cd-9192d13b Outside Enthalpy",
+            "M5b6LDDW mZ7OkzQT Humidifier Valve %"
+        ]
+    },
+    "AH00039_a6db317d-590b-4f49-95d1-1df4c8ccfb31": {
+        "variables": [
+            "AHU Running",
+            "Enthalpy",
+            "Humidification Valve %"
+        ],
+        "ground truth": [
+            "Status",
+            "20e545ca-357c37a9 Outside Enthalpy",
+            "202TW8owEsdTW8owEsdAHUF49 Humidifier Valve %"
+        ]
+    },
+    "AH00039_86656e5c-19d6-4fcd-adfb-29bfb1137adc": {
+        "variables": [
+            "AHU Running",
+            "Enthalpy",
+            "Humidification Valve %"
+        ],
+        "ground truth": [
+            "Status",
+            "20e545ca-357c37a9 Outside Enthalpy",
+            "202d9Agfky9d9Agfky9AHUF49 Humidifier Valve %"
+        ]
+    },
+    "AH00039_88c26909-2b3b-48c0-b68a-0da792242527": {
+        "variables": [
+            "AHU Running",
+            "Enthalpy",
+            "Humidification Valve %"
+        ],
+        "ground truth": [
+            "Status",
+            "20e545ca-357c37a9 Outside Enthalpy",
+            "202apv3JRHKapv3JRHKAHUF49 Humidifier Valve %"
+        ]
+    },
+    "AH00040_1d9cc47a-f3b1-4b06-ba5f-162ac1d58fdb": {
+        "variables": [
+            "AHU Running",
+            "Enthalpy",
+            "Zone Relative Humidity %",
+            "Supply Relative Humidity Setpoint %",
+            "Supply Relative Humidity %"
+        ],
+        "ground truth": [
+            "Status",
+            "",
+            "F1X4FSDr Zone Relative Humidity %",
+            "gefNNFVA Supply Relative Humidity Setpoint %",
+            "a90BmriWogyAhL Supply Relative Humidity %"
+        ]
+    },
+    "AH00040_a163cf45-4807-4762-8578-0fc87d6f1f92": {
+        "variables": [
+            "AHU Running",
+            "Enthalpy",
+            "Zone Relative Humidity %",
+            "Supply Relative Humidity Setpoint %",
+            "Supply Relative Humidity %"
+        ],
+        "ground truth": [
+            "Status",
+            "",
+            "B0AWo1Kk9t AHU 1 Zone Relative Humidity %",
+            "B0PgtALure AHU 1 Supply Relative Humidity Setpoint %",
+            "B0flLMVbmv AHU 1 Supply Relative Humidity %"
+        ]
+    },
+    "AH00040_e85a55a5-a3fb-4520-abc2-21dc43bcd63c": {
+        "variables": [
+            "AHU Running",
+            "Enthalpy",
+            "Zone Relative Humidity %",
+            "Supply Relative Humidity Setpoint %",
+            "Supply Relative Humidity %"
+        ],
+        "ground truth": [
+            "Status",
+            "",
+            "iAtum58lYXB6Es Zone Relative Humidity %",
+            "QNupgV5D Supply Relative Humidity Setpoint %",
+            "OratacDL Supply Relative Humidity %"
+        ]
+    },
+    "AH00044_9459d54b-6240-4706-b3ec-df5dbbf22925": {
+        "variables": [
+            "AHU Running",
+            "Static Pressure Setpoint",
+            "Static Pressure",
+            "Supply Fan Output %"
+        ],
+        "ground truth": [
+            "Status",
+            "kGjlC6Qt Static Pressure Setpoint",
+            "PHrW9DTb Duct Static Pressure",
+            "jEr6jTpk Supply Fan Output %"
+        ]
+    },
+    "AH00044_b0478439-5cec-472e-95cc-1734462d5571": {
+        "variables": [
+            "AHU Running",
+            "Static Pressure Setpoint",
+            "Static Pressure",
+            "Supply Fan Output %"
+        ],
+        "ground truth": [
+            "Status",
+            "0mxeLZTL Static Pressure Setpoint",
+            "gmHfMPgb Duct Static Pressure",
+            "KDb6WjOB Supply Fan Output %"
+        ]
+    },
+    "AH00044_d15b5017-a9c5-4f57-bd90-f095f9d5ded7": {
+        "variables": [
+            "AHU Running",
+            "Static Pressure Setpoint",
+            "Static Pressure",
+            "Supply Fan Output %"
+        ],
+        "ground truth": [
+            "Status",
+            "hGINGawm ikG697TO Static Pressure Setpoint",
+            "vrgi65gz jHF2EA7O Duct Static Pressure",
+            "lOdNzvE2 HY92zhwm Supply Fan Output %"
+        ]
+    },
+    "AH00045_2c10dde2-8ca0-484c-b40c-f887ea2391fc": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "OAT (Outside Air Temperature)",
+            "Heating Drained Flag",
+            "Setpoint Temperature",
+            "Return Air Temperature",
+            "Supply Air Temperature",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "CO2 (Carbon Dioxide)"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "${weatherRef} Temperature",
+            "",
+            "AHU00458ejNYDCJ Setpoint Temperature",
+            "AHU0045eFVTGkWT Return Air Temperature",
+            "AHU0045tsuaQyMc Supply Air Temperature",
+            "AHU0045ow9vW6xr fVn6MixH Damper %",
+            "AHU0045R0AASGQf UCebMIic Damper Minimum %",
+            "AHU0045k4c4HNuVYWyzXL Heating Valve %",
+            "",
+            ""
+        ]
+    },
+    "AH00045_c73b500a-71e8-4966-88f5-b26862043195": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "OAT (Outside Air Temperature)",
+            "Heating Drained Flag",
+            "Setpoint Temperature",
+            "Return Air Temperature",
+            "Supply Air Temperature",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "CO2 (Carbon Dioxide)"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "${weatherRef} Temperature",
+            "",
+            "AHU0045Qf2rO4Tq Setpoint Temperature",
+            "AHU00454XgIRC0E Return Air Temperature",
+            "AHU0045JEMzPPHH Supply Air Temperature",
+            "AHU0045liuZLZeW KepTeOPb Damper %",
+            "AHU0045xWomPjZS sk6yX2XUXH4Znp Damper Minimum %",
+            "AHU0045iCglKJsx Heating Valve %",
+            "",
+            ""
+        ]
+    },
+    "AH00045_fa1da74a-5fed-45ba-a1e6-3018189aefcd": {
+        "variables": [
+            "AHU Running",
+            "SubType",
+            "OAT (Outside Air Temperature)",
+            "Heating Drained Flag",
+            "Setpoint Temperature",
+            "Return Air Temperature",
+            "Supply Air Temperature",
+            "Outside Air Damper %",
+            "Outside Air Damper Minimum %",
+            "Heating Valve %",
+            "Preheat Valve %",
+            "CO2 (Carbon Dioxide)"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "${weatherRef} Temperature",
+            "",
+            "",
+            "B021 KMCPmbmo Return Air Temperature",
+            "B021 MCvEElLI Supply Air Temperature",
+            "B021 rfLFRT5H OiVbHngC Damper %",
+            "",
+            "B021 iZ1yAuk7 Heating Valve %",
+            "",
+            ""
+        ]
+    },
+    "AH00049_3b4622ba-a1f9-4baa-a6b0-9f77224738d5": {
+        "variables": [
+            "Supply Fan Status",
+            "Duct Static Pressure"
+        ],
+        "ground truth": [
+            "k5lFm5j7 Supply Fan Status",
+            "EDg39yxK Duct Static Pressure"
+        ]
+    },
+    "AH00049_c565edc3-e455-494e-8765-6a72b2af506c": {
+        "variables": [
+            "Supply Fan Status",
+            "Duct Static Pressure"
+        ],
+        "ground truth": [
+            "yIYbpH5T E1KaJsxq Supply Fan Status",
+            "iT7PHaHp dFSRNtcj Duct Static Pressure"
+        ]
+    },
+    "AH00049_0a5ebc42-b889-453c-b598-e25a09d13a70": {
+        "variables": [
+            "Supply Fan Status",
+            "Duct Static Pressure"
+        ],
+        "ground truth": [
+            "gFowvxkD Supply Fan Status",
+            "8LP1XI4Q Duct Static Pressure"
+        ]
+    },
+    "AH00052_55f416d5-27a8-4b28-b790-e2da1585b4d3": {
+        "variables": [
+            "Supply Fan Status",
+            "Subtype",
+            "Duct Static Pressure",
+            "Flow"
+        ],
+        "ground truth": [
+            "j03pwLgU Supply Fan Status",
+            "subType",
+            "WVfsXNdu Duct Static Pressure",
+            ""
+        ]
+    },
+    "AH00052_9be54b0d-d8d7-4d30-bf27-1b65b2c1ec7d": {
+        "variables": [
+            "Supply Fan Status",
+            "Subtype",
+            "Duct Static Pressure",
+            "Flow"
+        ],
+        "ground truth": [
+            "B06TbMWP9j lrefPtYA Supply Fan Status",
+            "subType",
+            "B0fcGqGR52 EsAiSHd4 Duct Static Pressure",
+            ""
+        ]
+    },
+    "AH00052_b30f5832-627c-4e15-b1ad-a3c15218214d": {
+        "variables": [
+            "Supply Fan Status",
+            "Subtype",
+            "Duct Static Pressure",
+            "Flow"
+        ],
+        "ground truth": [
+            "tpu6hqcX Supply Fan Status",
+            "subType",
+            "lo0zdyda Duct Static Pressure",
+            ""
+        ]
+    },
+    "AH00053_62b05268-bd7f-4827-9973-ab828c28185b": {
+        "variables": [
+            "Subtype",
+            "Supply Fan Status",
+            "Supply Fan Current"
+        ],
+        "ground truth": [
+            "subType",
+            "50EEuIAVlG Supply Fan Status",
+            "503rZl4xVn Supply Fan Current"
+        ]
+    },
+    "AH00053_c52b5124-0f2d-4b21-b141-a6b01b5a2eea": {
+        "variables": [
+            "Subtype",
+            "Supply Fan Status",
+            "Supply Fan Current"
+        ],
+        "ground truth": [
+            "subType",
+            "XQfzPD4G Supply Fan Status",
+            "OTNJuJjM Supply Fan Current"
+        ]
+    },
+    "AH00053_0a0c73ca-637d-47a6-8848-2c55e9c99b57": {
+        "variables": [
+            "Subtype",
+            "Supply Fan Status",
+            "Supply Fan Current"
+        ],
+        "ground truth": [
+            "subType",
+            "s2qrclqj Supply Fan Status",
+            "r5hgyWc6 Supply Fan Current"
+        ]
+    },
+    "AH00056_213c5365-41e5-4035-bd70-e6fff02998a2": {
+        "variables": [
+            "AHU Running",
+            "Economizer Mode",
+            "Preheat Valve %",
+            "Outside Air Damper %",
+            "Outside Air Damper Min %"
+        ],
+        "ground truth": [
+            "Status",
+            "Iwl9SmHJ Economizer Mode",
+            "7UlDxGfk Preheat Valve %",
+            "Kb622KPM 2XUdvyNo Damper %",
+            "fAMyTyR3 Zh2AUwpf Damper Minimum %"
+        ]
+    },
+    "AH00056_55bb14cc-1b00-45c8-8db7-66a854e0f9ac": {
+        "variables": [
+            "AHU Running",
+            "Economizer Mode",
+            "Preheat Valve %",
+            "Outside Air Damper %",
+            "Outside Air Damper Min %"
+        ],
+        "ground truth": [
+            "Status",
+            "QXEzkNue Economizer Mode",
+            "cZwtEryO Preheat Valve %",
+            "FHvTxl6e BJmzibxe Damper %",
+            "9bD9G4Fm kSHJLRn8jCiIaz Damper Minimum %"
+        ]
+    },
+    "AH00056_0d3c8f5c-01ea-4627-b34b-b0f4a3536417": {
+        "variables": [
+            "AHU Running",
+            "Economizer Mode",
+            "Preheat Valve %",
+            "Outside Air Damper %",
+            "Outside Air Damper Min %"
+        ],
+        "ground truth": [
+            "Status",
+            "rwFkeeIe Economizer Mode",
+            "rWM7KMEe Preheat Valve %",
+            "FrlvQJHv eCXoPIf1 Damper %",
+            "OtFu79Hp cyQU3spy Damper Minimum %"
+        ]
+    },
+    "BR00001_0db91e9f-c679-4bee-adf8-053b86d0ace8": {
+        "variables": [
+            "Boiler Running",
+            "Natural Gas Flow",
+            "Flue Gas Oxygen %",
+            "Fuel Oil Flow",
+            "Propane Flow"
+        ],
+        "ground truth": [
+            "Status",
+            "R3ZiVu4I Natural Gas Flow",
+            "3lwmp0Ms Flue Gas Oxygen %",
+            "hlzZlbat Fuel Oil Flow",
+            ""
+        ]
+    },
+    "BR00001_d781bb09-4514-4b2e-888e-5eeb96711e9d": {
+        "variables": [
+            "Boiler Running",
+            "Natural Gas Flow",
+            "Flue Gas Oxygen %",
+            "Fuel Oil Flow",
+            "Propane Flow"
+        ],
+        "ground truth": [
+            "Status",
+            "r95P0wAd Natural Gas Flow",
+            "zGGNEJHf Flue Gas Oxygen %",
+            "BLCViA51 Fuel Oil Flow",
+            ""
+        ]
+    },
+    "BR00001_61c0d480-d335-46cd-ad1c-e64beb29b266": {
+        "variables": [
+            "Boiler Running",
+            "Natural Gas Flow",
+            "Flue Gas Oxygen %",
+            "Fuel Oil Flow",
+            "Propane Flow"
+        ],
+        "ground truth": [
+            "Status",
+            "upKsTEIs Natural Gas Flow",
+            "U3e1Pvv2 Flue Gas Oxygen %",
+            "TDsjEjQq Fuel Oil Flow",
+            ""
+        ]
+    },
+    "BR00004_03b2f10a-d177-4994-b72f-8a44c363c5af": {
+        "variables": [
+            "Boiler Running",
+            "Supply Temperature",
+            "Return Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "EO1kNpO1 OHOBOILEF8Cspcod Supply Temperature",
+            "pRuXCadc OHOBOILEGti6uoXA Return Temperature"
+        ]
+    },
+    "BR00004_78d31da1-ae3b-4bdd-9f07-c366e297b68c": {
+        "variables": [
+            "Boiler Running",
+            "Supply Temperature",
+            "Return Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "DhYF9jNZ OHOBOILEnTMFsTUu Supply Temperature",
+            "jNQHjdhk OHOBOILEeanuDxwp Return Temperature"
+        ]
+    },
+    "BR00004_aea277f0-f5f8-407c-8836-47f1d103d144": {
+        "variables": [
+            "Boiler Running",
+            "Supply Temperature",
+            "Return Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "Nexo0RzG OHOBOILEZY6FntLx Supply Temperature",
+            "b9nAVkCZ OHOBOILEzyFWG736 Return Temperature"
+        ]
+    },
+    "BR00005_7540c5e7-1e4a-4d87-999a-0189806f5343": {
+        "variables": [
+            "Boiler Running",
+            "Conductivity"
+        ],
+        "ground truth": [
+            "Status",
+            "6cNPu7hZ Conductivity"
+        ]
+    },
+    "BR00005_c68dbc7c-c9a8-49d4-a52e-d333ffee3913": {
+        "variables": [
+            "Boiler Running",
+            "Conductivity"
+        ],
+        "ground truth": [
+            "Status",
+            "KKNtCZID Conductivity"
+        ]
+    },
+    "BR00005_91f58725-149b-404b-86d8-1bfbda7394c0": {
+        "variables": [
+            "Boiler Running",
+            "Conductivity"
+        ],
+        "ground truth": [
+            "Status",
+            "WiMH44TQ Conductivity"
+        ]
+    },
+    "CC00003_676a5dd8-43f3-4ebb-9e1f-bb67377abdf7": {
+        "variables": [
+            "CRAC Running",
+            "Return Air Temperature",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "B7jkaOlZZ2 FCU 1-58 Return Air Temperature",
+            "B7zW61L0sH FCU 1-58 Supply Air Temperature"
+        ]
+    },
+    "CC00003_f1260311-95d2-48fb-9afe-bc5abf805375": {
+        "variables": [
+            "CRAC Running",
+            "Return Air Temperature",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "6qkp8AcT r2o9ztRR0xPCxRxc9_L_AD56 Return Air Temperature",
+            "wQnrPhC6 JyyhHIy7UmlnO9XX9_L_AD56 Supply Air Temperature"
+        ]
+    },
+    "CC00003_00c35e52-3bd8-4d2b-9be3-fbc0a76519a0": {
+        "variables": [
+            "CRAC Running",
+            "Return Air Temperature",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "KEtlxCoM y2RmEvMI5cFxxXFNI_L_EBd42yDpCF Return Air Temperature",
+            "oyqcqgjb LyR3VFhz5bR1Q9NIV_L_EBC4FWSh2q Supply Air Temperature"
+        ]
+    },
+    "CC00007_fbae15c5-9113-438c-8d34-d365048e15e5": {
+        "variables": [
+            "CRAC Running",
+            "Chilled Water Valve %"
+        ],
+        "ground truth": [
+            "Status",
+            "B7qGOJzoCa FCU 1-7 Cooling Valve %"
+        ]
+    },
+    "CC00007_5418e838-b308-404c-b19c-b5cdda508150": {
+        "variables": [
+            "CRAC Running",
+            "Chilled Water Valve %"
+        ],
+        "ground truth": [
+            ["Status", "1IMw9UlR Run Status"],
+            "2zxCDvbf Cooling Valve %"
+        ]
+    },
+    "CC00007_d7d21a0f-9dc1-4828-aac2-21f59e5db613": {
+        "variables": [
+            "CRAC Running",
+            "Chilled Water Valve %"
+        ],
+        "ground truth": [
+            ["Status", "B7wiB8ffVHfZulAP FCU 1-7 Run Status"],
+            "BMGAJcyOgQ6uMfdf FCU 1-7 Cooling Valve %"
+        ]
+    },
+    "CC00010_5197e484-773e-4644-b766-8308e3814203": {
+        "variables": [
+            "CRAC Running",
+            "Temperature Setpoint",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "",
+            "pgC4cQan Setpoint Temperature",
+            "7BKfDk6w Supply Air Temperature"
+        ]
+    },
+    "CC00010_b61475ee-a296-4638-8f65-c9c894decc31": {
+        "variables": [
+            "CRAC Running",
+            "Temperature Setpoint",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "B0kT4GZDxY FCU 2-gnlFCKnc  Setpoint Temperature",
+            "B0rmj3lO5y FCU 2-x9GDUuHl  Supply Air Temperature"
+        ]
+    },
+    "CC00010_0b3fc200-aacf-498b-a3dc-2e4a6b40562a": {
+        "variables": [
+            "CRAC Running",
+            "Temperature Setpoint",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "B7vP7kkH7H FCU 1-56 Setpoint Temperature",
+            "B77b4GZ7EX FCU 1-56 Supply Air Temperature"
+        ]
+    },
+    "CC00011_20669373-4f58-46e5-a7d1-95735c80cdf5": {
+        "variables": [
+            "CRAC Running",
+            "Temperature Setpoint",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "",
+            "1FFQhd9G Setpoint Temperature",
+            "TKryYTdZ Supply Air Temperature"
+        ]
+    },
+    "CC00011_24a3c13d-63dc-4c7c-a76c-fa9ed04e991b": {
+        "variables": [
+            "CRAC Running",
+            "Temperature Setpoint",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            ["Status", "B7oS6aPdEL FCU 1-34 Run Status"],
+            "B7ucyStj0E FCU 1-34 Setpoint Temperature",
+            "B7POXmgVT1 FCU 1-34 Supply Air Temperature"
+        ]
+    },
+    "CC00011_358743ce-46e8-4164-b51c-831ea537fec9": {
+        "variables": [
+            "CRAC Running",
+            "Temperature Setpoint",
+            "Supply Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "B7X7NutdCl FCU 1-31 Setpoint Temperature",
+            "B7aFN3qnEX FCU 1-31 Supply Air Temperature"
+        ]
+    },
+    "CR00002_685933b1-de19-4a17-bedb-0b519a9cb3ae": {
+        "variables": [
+            "Chiller Running",
+            "Supply Temperature",
+            "Setpoint Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "bo4aJhgr Supply Temperature",
+            "pzyOneAe Setpoint Temperature"
+        ]
+    },
+    "CR00002_a3426a57-c0a1-4c6f-bc91-65d6b9570622": {
+        "variables": [
+            "Chiller Running",
+            "Supply Temperature",
+            "Setpoint Temperature"
+        ],
+        "ground truth": [
+            ["Status", "enIX6FBm 202HhqontpcHhqontpcGCME1 Run Status"],
+            "hrfkXwZF 202mgVipUiBmgVipUiBGCME1 Supply Temperature",
+            "k5Ae5bdD 202qPwIOuPjqPwIOuPjGCME1 Setpoint Temperature"
+        ]
+    },
+    "CR00002_0cd7afb6-c918-4d6a-aca7-85b7930e6f98": {
+        "variables": [
+            "Chiller Running",
+            "Supply Temperature",
+            "Setpoint Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "E0r8LU1V Supply Temperature",
+            "OMCoRrRd Setpoint Temperature"
+        ]
+    },
+    "CR00003_293bd58d-a306-4441-9c94-e844fdac0638": {
+        "variables": [
+            "Chiller Running",
+            "Setpoint Temperature",
+            "Supply Temperature"
+        ],
+        "ground truth": [
+            ["Status", "DHivBiIc 202QaaOAaDAQaaOAaDAGCME1 Run Status"],
+            "TlCn6W2z 202hioL4Fx6hioL4Fx6GCME1 Supply Temperature",
+            "kxHHSZdo 202KqBJEZbhKqBJEZbhGCME1 Setpoint Temperature"
+        ]
+    },
+    "CR00003_52a09556-46c2-4094-96f2-cef32823462d": {
+        "variables": [
+            "Chiller Running",
+            "Setpoint Temperature",
+            "Supply Temperature"
+        ],
+        "ground truth": [
+            ["Status", "B0eQMHYlB5 0qlqyRbf Status"],
+            "B0zGrsqsuD 7DX1CNBj Supply Temp Setpoint",
+            "B0BbVxZzGL Ph4mcw2q Supply Temperature"
+        ]
+    },
+    "CR00003_9f62b8b1-83d1-46fc-80d6-f5c225356e4f": {
+        "variables": [
+            "Chiller Running",
+            "Setpoint Temperature",
+            "Supply Temperature"
+        ],
+        "ground truth": [
+            ["Status", "yzfX1axT 202JAPVJSzIJAPVJSzIGCME1 Run Status"],
+            "XtopOUPB 202dlYAqPEOdlYAqPEOGCME1 Setpoint Temperature",
+            "9mJ7keO6 202MrC1cVMfMrC1cVMfGCME1 Supply Temperature"
+        ]
+    },
+    "CR00008_8cade9ba-ce25-414a-8476-1f9c6afce910": {
+        "variables": [
+            "Chiller Running",
+            "Supply Temperature",
+            "Liquid Refrigerant Evaporator Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "kEiloPkL Supply Temperature",
+            "c7Quv4fI Liquid Refrigerant Evaporator Temperature"
+        ]
+    },
+    "CR00008_cfe74c0a-64f2-4cfe-bfee-e3d98beb993e": {
+        "variables": [
+            "Chiller Running",
+            "Supply Temperature",
+            "Liquid Refrigerant Evaporator Temperature"
+        ],
+        "ground truth": [
+            ["Status", "B0Y5P568h9 lMH91qTN Status"],
+            "B0FBCdNUiL B7Oz7YIf Supply Temperature",
+            "B0NkdlyZSB fjonYVYY Liquid Refrigerant Evaporator Temperature"
+        ]
+    },
+    "CR00008_fae8fb1e-bf97-4769-befb-98172c44b7d0": {
+        "variables": [
+            "Chiller Running",
+            "Supply Temperature",
+            "Liquid Refrigerant Evaporator Temperature"
+        ],
+        "ground truth": [
+            ["Status", "B0gKrWenWZ HYkwyD2H Status"],
+            "B0oj3xJeQl OB5uQgVL Supply Temperature",
+            "B0TGi2IOsF QiBpBs3F Liquid Refrigerant Evaporator Temperature"
+        ]
+    },
+    "CR00009_1d105137-3a79-4d1d-b0b5-f7c8704912cb": {
+        "variables": [
+            "Chiller Running",
+            "Condenser Liquid Refrigerant Temperature",
+            "Condenser Water Return To Tower Temperature"
+        ],
+        "ground truth": [
+            ["Status", "TI5eDTsA 9WqVRxQC Run Status"],
+            "1FoWxMXN kF9Kp1Wv Condenser Liquid Refrigerant Temperature",
+            "Auohriat e9aWzuVUoxHthY Condenser Water Return To Tower Temperature"
+        ]
+    },
+    "CR00009_87c98d49-995d-4377-9983-d0033331a0c2": {
+        "variables": [
+            "Chiller Running",
+            "Condenser Liquid Refrigerant Temperature",
+            "Condenser Water Return To Tower Temperature"
+        ],
+        "ground truth": [
+            ["Status", "C7N4LZ2n 2d3SQPVl Run Status"],
+            "8wrWYJFu iEc4cjdx Condenser Liquid Refrigerant Temperature",
+            "rp6dQs1zmgX3Wd gp40jBBT Condenser Water Return To Tower Temperature"
+        ]
+    },
+    "CR00009_ce7d2960-4e0e-4d52-be9a-155ab996b93d": {
+        "variables": [
+            "Chiller Running",
+            "Condenser Liquid Refrigerant Temperature",
+            "Condenser Water Return To Tower Temperature"
+        ],
+        "ground truth": [
+            ["Status", "B091 qaO8pka9 Run Status"],
+            "B091 QjSA3Unt Condenser Liquid Refrigerant Temperature",
+            "B091 dtA5Gszl Condenser Water Return to Tower Temperature"
+        ]
+    },
+    "CR00010_d6f5068b-f54b-4ceb-a725-58d64b4b2fac": {
+        "variables": [
+            "Chiller Running",
+            "Coolant Pressure Difference",
+            "Coolant Pressure Difference Setpoint",
+            "Supply Coolant Pressure",
+            "Return Coolant Pressure",
+            "Coolant Pressure Difference Reporting"
+        ],
+        "ground truth": [
+            ["Status", "9Y8g0i3k sU6fehl9 Run Status"],
+            "SnIarUOr WsbmSHvF Coolant Pressure Difference",
+            "vUnKTO7l dJZ4HciZ Coolant Pressure Difference Setpoint",
+            "",
+            "",
+            "SnIarUOr WsbmSHvF Coolant Pressure Difference"
+        ]
+    },
+    "CR00011_69b1f5f9-9242-4045-a181-6618c16e303c": {
+        "variables": [
+            "Status",
+            "Power Input"
+        ],
+        "ground truth": [
+            "B0Qk7Get4f 1zqAldCd Run Status",
+            "B0eCsXgCi5 jvrMl5e5 Power Input"
+        ]
+    },
+    "CR00011_6cbd6b90-8cb4-4cf9-a9ee-42f4dc24d32f": {
+        "variables": [
+            "Status",
+            "Power Input"
+        ],
+        "ground truth": [
+            "ePq5AzXI Eyr51SJN Run Status",
+            "pYwSORga RehiZThR Power Input"
+        ]
+    },
+    "CR00011_f4f0c321-1e9f-46ee-8f73-23367163ad4e": {
+        "variables": [
+            "Status",
+            "Power Input"
+        ],
+        "ground truth": [
+            "B0EfLANCv2 gJRbOniF Run Status",
+            "B0VZ3BJ6cA cipWiWnPQkdJ0i Power Input"
+        ]
+    },
+    "CT00001_6bcbb593-915e-41e7-9e7b-24b85b044575": {
+        "variables": [
+            "Condenser Water Pressure Difference",
+            "Condenser Water Pressure Difference Setpoint",
+            "OAT (Outside Air Temperature)"
+        ],
+        "ground truth": [
+            "4w7tgUpw3RijMw zgatFLjh Condenser Water Pressure Difference",
+            "rj017vOs ZIt7bUd4 Condenser Water Pressure Difference Setpoint",
+            ["${weatherRef} Temperature", "1d82f835-31f2c7f1 Outdoor Air Temperature"]
+        ]
+    },
+    "CT00001_08ac079c-3a9f-402f-b64c-c2ffa85528bb": {
+        "variables": [
+            "Condenser Water Pressure Difference",
+            "Condenser Water Pressure Difference Setpoint",
+            "OAT (Outside Air Temperature)"
+        ],
+        "ground truth": [
+            "H08N77Up eUOtEsvq Condenser Water Pressure Difference",
+            "BpQXX2RO wjKDMz4L Condenser Water Pressure Difference Setpoint",
+            ["${weatherRef} Temperature", "1d82f835-31f2c7f1 Outdoor Air Temperature"]
+        ]
+    },
+    "CT00001_69cd0d9d-414e-488d-a5e7-87d4aae35e17": {
+        "variables": [
+            "Condenser Water Pressure Difference",
+            "Condenser Water Pressure Difference Setpoint",
+            "OAT (Outside Air Temperature)"
+        ],
+        "ground truth": [
+            "6s5SonQZ V6NCoFy9 Condenser Water Pressure Difference",
+            "M3w4gN3F Z79WkxBq Condenser Water Pressure Difference Setpoint",
+            ["${weatherRef} Temperature", "1d82f835-31f2c7f1 Outdoor Air Temperature"]
+        ]
+    },
+    "CT00003_2eda6490-14ee-4487-ad76-34dc2ceaafe2": {
+        "variables": [
+            "Condenser Water Supply To Chiller Temperature",
+            "Condenser Water Temperature Setpoint",
+            "Outdoor Air Temperature (OAT)"
+        ],
+        "ground truth": [
+            "B027 im97AO2Ks Condenser Water Supply To Chiller Temperature",
+            "B027 weLNROiCmURWUks Condenser Water Temperature Setpoint",
+            "1d8d8ad4-65d11d11 Outdoor Air Temperature"
+        ]
+    },
+    "CT00003_1a95c358-ef7e-45e2-a2f1-8ba19e86b05f": {
+        "variables": [
+            "Condenser Water Supply To Chiller Temperature",
+            "Condenser Water Temperature Setpoint",
+            "Outdoor Air Temperature (OAT)"
+        ],
+        "ground truth": [
+            "Es9Up5EI 202npDz6oAhnpDz6oAhCTME06 Condenser Water Supply To Chiller Temperature",
+            "6gnEqswn 202qzvEzNEiqzvEzNEiCTME06 Condenser Water Temperature Setpoint",
+            "2002b2a6-0658d160 Outdoor Air Temperature"
+        ]
+    },
+    "CT00003_3ba423f6-ba12-460f-ab82-3376ae8be4a0": {
+        "variables": [
+            "Condenser Water Supply To Chiller Temperature",
+            "Condenser Water Temperature Setpoint",
+            "Outdoor Air Temperature (OAT)"
+        ],
+        "ground truth": [
+            "B027 v9g6vw0ws Condenser Water Supply To Chiller Temperature",
+            "B027 uNC7WAESs Condenser Water Temperature Setpoint",
+            "1d8d8ad4-65d11d11 Outdoor Air Temperature"
+        ]
+    },
+    "HX00003_8b43f642-e32b-4c28-a253-8edc27863b7d": {
+        "variables": [
+            "Heating Valve",
+            "Hot Water Temperature",
+            "Hot Water Return Temperature",
+            "Hot Water System Drained"
+        ],
+        "ground truth": [
+            "7VtnlfTQ Heating Valve %",
+            "yiclQKsf Hot Water Temperature",
+            "huGgnFMx Hot Water Return Temperature",
+            ""
+        ]
+    },
+    "HX00003_8c6f0d77-9886-405f-a4ae-8b1831f2492e": {
+        "variables": [
+            "Heating Valve",
+            "Hot Water Temperature",
+            "Hot Water Return Temperature",
+            "Hot Water System Drained"
+        ],
+        "ground truth": [
+            "CPAiS7VV Heating Valve %",
+            "HtqU2OtW Hot Water Temperature",
+            "ANk5Ntds Hot Water Return Temperature",
+            ""
+        ]
+    },
+    "HX00003_ef1680f1-5141-4a14-a6a0-998fffec32c4": {
+        "variables": [
+            "Heating Valve",
+            "Hot Water Temperature",
+            "Hot Water Return Temperature",
+            "Hot Water System Drained"
+        ],
+        "ground truth": [
+            "2rwXaYDr Heating Valve %",
+            "xBpxXpzX Hot Water Temperature",
+            "OeDBlIC6 Hot Water Return Temperature",
+            ""
+        ]
+    },
+    "HX00004_00a52828-aec1-4177-a6d6-ef275598208a": {
+        "variables": [
+            "Heating Valve",
+            "Hot Water Temperature",
+            "Hot Water System drained"
+        ],
+        "ground truth": [
+            "nakuxyda Heating Valve %",
+            "Qyg0fiPk Hot Water Temperature",
+            ""
+        ]
+    },
+    "HX00004_507ad55e-5a68-4e56-b825-f0f1e441fef5": {
+        "variables": [
+            "Heating Valve",
+            "Hot Water Temperature",
+            "Hot Water System drained"
+        ],
+        "ground truth": [
+            "3If4to1c Heating Valve %",
+            "gmLYjprC Hot Water Temperature",
+            ""
+        ]
+    },
+    "HX00004_c587c7b4-6902-40e6-8b0a-5e78c3a020ce": {
+        "variables": [
+            "Heating Valve",
+            "Hot Water Temperature",
+            "Hot Water System drained"
+        ],
+        "ground truth": [
+            "B0hxjgSPRe HX HW Heating Valve %",
+            "B0v8GLVEP9 HX HW Hot Water Temperature",
+            ""
+        ]
+    },
+    "HX00005_ff764e0c-cfd5-4a22-b896-984bd3f97115": {
+        "variables": [
+            "Hot Water System Drained",
+            "Heating System Status",
+            "OAT (Outside Air Temperature)",
+            "Heating Valve",
+            "Hot Water Temperature"
+        ],
+        "ground truth": [
+            "",
+            "",
+            "1d8d8ad4-65d11d11 Outdoor Air Temperature",
+            "B7qPyhOYur HX 2 Heating Valve %",
+            "B7nsWIMIGP HX 2 Hot Water Temperature"
+        ]
+    },
+    "HX00005_783bd667-6a77-4de8-b7ee-da8e58302933": {
+        "variables": [
+            "Hot Water System Drained",
+            "Heating System Status",
+            "OAT (Outside Air Temperature)",
+            "Heating Valve",
+            "Hot Water Temperature"
+        ],
+        "ground truth": [
+            "",
+            "",
+            "1d8d8ad4-65d11d11 Outdoor Air Temperature",
+            "B7bFBwKQ6Y HX 2 Heating Valve %",
+            "B7aTXJr9zh HX 2 Hot Water Temperature"
+        ]
+    },
+    "HX00005_a8954595-2983-4470-8ea4-d5c78b2cc4e5": {
+        "variables": [
+            "Hot Water System Drained",
+            "Heating System Status",
+            "OAT (Outside Air Temperature)",
+            "Heating Valve",
+            "Hot Water Temperature"
+        ],
+        "ground truth": [
+            "",
+            "",
+            "1d8d8ad4-65d11d11 Outdoor Air Temperature",
+            "4oQJJoIs Heating Valve %",
+            "f9eHrlDu Hot Water Temperature"
+        ]
+    },
+    "PD00002_ebf78533-9a8d-4852-a06b-455eacef622e": {
+        "variables": [
+            "Power Input"
+        ],
+        "ground truth": [
+            "Fsnvvokn GJlPZf1y Real Power"
+        ]
+    },
+    "PD00002_0c152254-000d-4212-b89b-dffbb8650791": {
+        "variables": [
+            "Power Input"
+        ],
+        "ground truth": [
+            "5NPvPrVV RfYqpdWp Real Power"
+        ]
+    },
+    "PD00002_6e546da9-1d9d-42c9-b925-bf9ba2ff115a": {
+        "variables": [
+            "Power Input"
+        ],
+        "ground truth": [
+            "A3zDwwiy UiFTC9XK Real Power"
+        ]
+    },
+    "PU00003_69a91db6-99b2-48ce-bfa6-3dc3ce158b57": {
+        "variables": [
+            "Pump Status",
+            "Pump Current In Amps",
+            "OAT (Outside Air Temperature)",
+            "Pump Occupied"
+        ],
+        "ground truth": [
+            "Status",
+            "",
+            "1cb8340d-55ca59ef Outdoor Air Temperature",
+            " NEASCHWm0B72n8X Pump Occupied"
+        ]
+    },
+    "PU00003_61895372-a557-4704-8b1b-3733d014122e": {
+        "variables": [
+            "Pump Status",
+            "Pump Current In Amps",
+            "OAT (Outside Air Temperature)",
+            "Pump Occupied"
+        ],
+        "ground truth": [
+            "Status",
+            "",
+            "1cb8340d-55ca59ef Outdoor Air Temperature",
+            " wMn6cc7L Pump Occupied"
+        ]
+    },
+    "PU00003_b7cbdaf2-ef51-4113-ae58-2aadff645225": {
+        "variables": [
+            "Pump Status",
+            "Pump Current In Amps",
+            "OAT (Outside Air Temperature)",
+            "Pump Occupied"
+        ],
+        "ground truth": [
+            "Status",
+            "",
+            "1cb8340d-55ca59ef Outdoor Air Temperature",
+            " aGIW1huo Pump Occupied"
+        ]
+    },
+    "PU00004_9ec447a0-267d-4d4b-9e5b-b76c7e41f2cb": {
+        "variables": [
+            "Pump Running",
+            "Pump VFD Speed Reporting",
+            "OAT (Outside Air Temperature)",
+            "Pump Differential Pressure",
+            "Pump Differential Pressure Setpoint"
+        ],
+        "ground truth": [
+            "Status",
+            "WOsr1N1E UXeBrhIZ8 Pump VFD Speed %",
+            "1db01607-4bc20a90 Outdoor Air Temperature",
+            "ucaYSqAK r6mdFvZx8 Pump Differential Pressure ",
+            "zZvrn6jH IzOUVFKP8 Pump Differential Pressure Setpoint"
+        ]
+    },
+    "PU00004_a6e0b31e-b8fc-4898-9f48-7f0d46ad6bfe": {
+        "variables": [
+            "Pump Running",
+            "Pump VFD Speed Reporting",
+            "OAT (Outside Air Temperature)",
+            "Pump Differential Pressure",
+            "Pump Differential Pressure Setpoint"
+        ],
+        "ground truth": [
+            "Status",
+            "LG21Jv2o tTbogB7B Pump VFD Speed %",
+            "1db01607-4bc20a90 Outdoor Air Temperature",
+            "0XiLhodh WCdYch46 Pump Differential Pressure ",
+            "j6J7kyUX 55DxudkQ Pump Differential Pressure Setpoint"
+        ]
+    },
+    "PU00004_66c5d669-617f-485e-ac27-2a1f2ace213e": {
+        "variables": [
+            "Pump Running",
+            "Pump VFD Speed Reporting",
+            "OAT (Outside Air Temperature)",
+            "Pump Differential Pressure",
+            "Pump Differential Pressure Setpoint"
+        ],
+        "ground truth": [
+            "Status",
+            "qLKnp0xX fvVfpUDl Pump VFD Speed %",
+            ["1d82f835-31f2c7f1 Outdoor Air Temperature", "${weatherRef} Temperature"],
+            "pvqRyir8 TDdZCkZa Condenser Water Pressure Difference",
+            "O4OPCqtm GzBiNphh Condenser Water Pressure Difference Setpoint"
+        ]
+    },
+    "PU00005_26c47cf3-6962-4a9b-b0fc-d73eca381899": {
+        "variables": [
+            "Pump Running",
+            "SubType",
+            "Outside Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "${weatherRef} Temperature"
+        ]
+    },
+    "PU00005_acbd65de-9bb5-4547-b576-2d8b5920ce57": {
+        "variables": [
+            "Pump Running",
+            "SubType",
+            "Outside Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "${weatherRef} Temperature"
+        ]
+    },
+    "PU00005_f6029aa9-1b3d-4ad1-8d1d-d05e373fa5fc": {
+        "variables": [
+            "Pump Running",
+            "SubType",
+            "Outside Air Temperature"
+        ],
+        "ground truth": [
+            "Status",
+            "subType",
+            "${weatherRef} Temperature"
+        ]
+    }
+}
